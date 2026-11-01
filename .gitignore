@@ -1,0 +1,25 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc 
+
+# Configuración privada
+.env
+.env.*
+
+# Datos originales y archivos procesados
+data/*
+
+# Conservar los resultados necesarios para el dashboard
+!data/abc_productos.csv 
+!data/pronostico_dairy_tienda3.csv
+!data/resumen_familias.csv
+!data/serie_dairy_tienda3.csv
+!data/escenario_riesgo.csv
+
+# Archivos de salida
+*.pdf
+results/

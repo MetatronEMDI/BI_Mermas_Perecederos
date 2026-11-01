@@ -1,0 +1,37 @@
+# Business Intelligence para la Gestión de Mermas
+
+Prototipo de análisis de productos perecederos desarrollado
+en Python, Dash y Plotly.
+
+## Objetivo
+
+Analizar patrones comerciales, evaluar pronósticos de ventas
+y simular el riesgo económico asociado al inventario
+de productos perecederos.
+
+## Funcionalidades
+
+- Análisis exploratorio y clasificación ABC.
+- Pronóstico estadístico de ventas.
+- Simulación de inventario y riesgo de merma.
+- Dashboard interactivo con Dash.
+- Recomendaciones empresariales basadas en reglas.
+- Exportación de indicadores a PDF para interpretación con IA.
+
+## Datos
+
+Fuente: Corporación Favorita Grocery Sales Forecasting,
+disponible en Kaggle.
+
+Los datos originales no se incluyen por su tamaño.
+
+## Instalación
+
+python -m venv .venv
+python -m pip install -r requirements.txt
+
+## Ejecución
+
+python src/dashboard.py
+
+Abrir http://127.0.0.1:8050/
